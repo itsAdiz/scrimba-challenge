@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'cursedTimer';
+    src: url('font/CursedTimerUlil.ttf');
+}
+
+body{
+    margin: 0;
+
+}
+/* use custom font */
+
+
+.flex-container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 400px;
+    color:white;
+    margin:100px auto;
+    text-align: center;
+    border-radius: 20px;
+    padding:50px 0;
+    
+
+}
+.wrapper{
+    height: 120px;
+    width: 140px;
+    border: solid;
+    border-radius: 20px;;
+
+}
+.homescore,.guestscore{
+    font-size: 50px;
+    font-family: 'cursedTimer';
+}
+button{
+    font-family: cursedTimer;
+    border: solid ;
+    font-size: 15px;
+    padding:10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+button:hover{
+    background-color: #4e5d9e;
+    color: white;
+    cursor: pointer;
+}

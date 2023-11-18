@@ -7,7 +7,6 @@ body{
     margin: 0;
 
 }
-/* use custom font */
 
 
 .flex-container{
@@ -28,12 +27,14 @@ body{
     height: 120px;
     width: 140px;
     border: solid;
-    border-radius: 20px;;
+    border-radius: 20px;
+    background-color: black;
 
 }
 .homescore,.guestscore{
     font-size: 50px;
     font-family: 'cursedTimer';
+    color:red
 }
 button{
     font-family: cursedTimer;
